@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section-text {
+    color: #078dcf;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.section-title {
+    color: #006599;
+    font-weight: 400;
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.section {
+    margin-left: 30%;
+    padding: 80px 60px;
+    width: 70%;
+}
+
+.menu {
+    width: 30%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #006599;
+    padding: 80px 0;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 60px;
+}
+
+.menu-link {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    display: block;
+    width: fit-content;
+    padding: 20px 0;
+    font-weight: 300;
+}
+
+.menu-link:hover {
+    color: #078dcf;
+}
+
+.menu-container {
+    width: 50%;
+    margin: auto;
+}
+
+.header {
+    width: 70%;
+    height: 100vh;
+    margin-left: 30%;
+    background: url("img/neaty-01.jpg") center/cover no-repeat;
+    background-attachment: fixed;
+}
+
+.about-left,
+.about-right {
+    display: inline-block;
+}
+
+.about-left {
+    width: 30%;
+    margin-right: 50px;
+}
+
+.about-img {
+    width: 100%;
+}
+
+.about-right {
+    width: 64%;
+    vertical-align: top;
+}
+
+.about-button {
+    width: fit-content;
+    background: #006599;
+    padding: 20px 80px;
+    color: white;
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.about-button:hover {
+    background: #000;
+}
+
+.gallery1,
+.gallery2,
+.gallery3 {
+    text-align: center;
+}
+
+.gal1-img {
+    display: inline-block;
+    width: 18%;
+    margin-right: 10px;
+}
+
+.gal2-img {
+    display: inline-block;
+    width: 30%;
+    margin-right: 20px;
+}
+
+.gal3-img {
+    display: inline-block;
+    width: 22%;
+    margin-right: 20px;
+}
+
+.contact-left,
+.contact-right {
+    display: inline-block;
+}
+
+.contact-left {
+    width: 48%;
+    margin-right: 20px;
+}
+
+.contact-right {
+    width: 48%;
+    vertical-align: top;
+}
+
+form {
+    width: 100%;
+}
+
+input,
+textarea {
+    width: 100%;
+    font-size: 20px;
+    color: #078dcf;
+    border: none;
+    border: 1px solid #078dcf;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    width: fit-content;
+    background: #006599;
+    padding: 20px 80px;
+    color: white;
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+button:hover {
+    background: #000;
+}

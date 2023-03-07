@@ -1,0 +1,54 @@
+@media (max-width: 1000px) {
+    .menu {
+        height: 430px;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+        position: static;
+    }
+
+    .section,
+    .header {
+        margin: 0;
+        width: 100%;
+    }
+
+    .menu-link {
+        font-size: 20px;
+        padding: 10px 0;
+        margin: auto;
+    }
+
+    .header {
+        background-attachment: scroll;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .menu-container {
+        width: 100%;
+
+    }
+
+    .about-left,
+    .about-right {
+        display: block;
+        width: 100%;
+    }
+
+    .about-button {
+        width: 100%;
+    }
+
+    .gal1-img, .gal2-img, .gal3-img, .contact-left, .contact-right {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
